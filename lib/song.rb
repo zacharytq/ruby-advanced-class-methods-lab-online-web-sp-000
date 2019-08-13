@@ -23,14 +23,14 @@ class Song
     song
   end
 
-  def self.create_by_name(title) #class constructor
+  def self.create_by_name(name)
     song = self.create
-    song.name = title
+    song.name = name
     song
   end
 
-  def self.find_by_name(title) #class finder
-    result = self.all.detect {|song| song.name == title}
+  def self.find_by_name(title)
+    result = self.all.detect {|song| song.name == name}
     result
   end
 
