@@ -54,6 +54,8 @@ class Song
     artist_info = song_info[0]
 
     return_song = self.new_by_name(song_name)
+    return_song.artist_name = artist_info
+    return_song
   end
 
 end
