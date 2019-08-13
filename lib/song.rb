@@ -48,4 +48,7 @@ class Song
     return_array
   end
 
+  def new_from_filename(filename)
+  end
+
 end
