@@ -48,7 +48,7 @@ class Song
     return_array
   end
 
-  def self.new_from_filename(filename)
+  def self.new_from_filename(new_song)
   end
 
 end
